@@ -101,11 +101,11 @@ rotate(document.getElementsByTagName("i")[1],20)
 rotate(document.getElementsByTagName("i")[2],20);
 rotate(document.getElementsByTagName("i")[3],20);
 translate(document.getElementsByTagName("i")[4],8);
-translate(document.getElementsByTagName("i")[8],8);
-rotate(document.getElementsByTagName("i")[9],20);
-rotate(document.getElementsByTagName("i")[10],20);
-rotate(document.getElementsByTagName("i")[11],20);
-rotate(document.getElementsByTagName("i")[12],20);
+translate(document.getElementsByTagName("i")[12],8);
+rotate(document.getElementsByTagName("i")[13],20);
+rotate(document.getElementsByTagName("i")[14],20);
+rotate(document.getElementsByTagName("i")[15],20);
+rotate(document.getElementsByTagName("i")[16],20);
 rotate(document.getElementById("btn_grp"),20);
 translate(document.getElementById("send"),5);
 
