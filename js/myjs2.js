@@ -96,7 +96,11 @@ elem.onmouseover=function(){
 
 translate_horizontal(document.getElementsByClassName("carousel-control")[0],6);
 translate_horizontal(document.getElementsByClassName("carousel-control")[1],6);
-translate(document.getElementsByTagName("i")[0],8);
+rotate(document.getElementsByTagName("i")[0],8);
+rotate(document.getElementsByTagName("i")[1],8);
+rotate(document.getElementsByTagName("i")[2],8);
+rotate(document.getElementsByTagName("i")[3],8);
+translate(document.getElementsByTagName("i")[4],8);
 translate(document.getElementsByTagName("i")[8],8);
 rotate(document.getElementsByTagName("i")[9],20);
 rotate(document.getElementsByTagName("i")[10],20);
