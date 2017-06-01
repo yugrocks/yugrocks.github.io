@@ -24,7 +24,7 @@ elem.onmouseover=function(){
 		clearInterval(intrvl);
 	}
 	}
-	,0);
+	,1);
 }
 }
 rotate(document.getElementsByTagName("i")[7],14);
