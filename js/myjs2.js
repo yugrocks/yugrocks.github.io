@@ -27,10 +27,6 @@ elem.onmouseover=function(){
 	}
 }
 }
-rotate(document.getElementsByTagName("i")[7],14);
-rotate(document.getElementsByTagName("i")[6],14);
-rotate(document.getElementsByTagName("i")[5],14);
-
 
 
 var translate=function(elem,max){
@@ -102,6 +98,9 @@ rotate(document.getElementsByTagName("i")[2],20);
 rotate(document.getElementsByTagName("i")[3],20);
 translate(document.getElementsByTagName("i")[4],8);
 translate(document.getElementsByTagName("i")[12],8);
+rotate(document.getElementsByTagName("i")[10],20);
+rotate(document.getElementsByTagName("i")[11],20);
+rotate(document.getElementsByTagName("i")[12],20);
 rotate(document.getElementsByTagName("i")[13],20);
 rotate(document.getElementsByTagName("i")[14],20);
 rotate(document.getElementsByTagName("i")[15],20);
