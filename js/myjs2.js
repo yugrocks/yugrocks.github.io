@@ -18,13 +18,13 @@ elem.onmouseover=function(){
 	deg+=1;
 	elem.style.webkitTransform="rotateZ("+deg+"deg)";
 	}
+	}
+	,2);
 	elem.onmouseout=function(){
 		clearInterval(intrvl);
 		elem.style.webkitTransform='';
 		clearInterval(intrvl);
 	}
-	}
-	,1);
 }
 }
 rotate(document.getElementsByTagName("i")[7],14);
@@ -54,12 +54,13 @@ elem.onmouseover=function(){
 	deg+=1;
 	elem.style.webkitTransform="translateY("+deg+"px)";
 	}
+	
+	}
+	,40);
 	elem.onmouseout=function(){
 		clearInterval(intrvl);
 		elem.style.webkitTransform='';
 	}
-	}
-	,40);
 }
 }
 
