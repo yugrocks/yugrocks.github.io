@@ -107,8 +107,8 @@ var speed2=Math.floor(Math.random()*5+1);
 var interval=setInterval(function (){move(image,speed2);},50);
 
 }
-
-if($(window).width()>1000){ // limit it to window sizes with width>1000px
+if(false){//disabled right now
+//if($(window).width()>1000){ // limit it to window sizes with width>1000px
 setInterval(make_move,3000);}
 
 
