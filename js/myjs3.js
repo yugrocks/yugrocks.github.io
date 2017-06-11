@@ -6,6 +6,7 @@ document.getElementById('skills').style.webkitTransform="translateY("+700+"px)";
 document.getElementById('creations').style.webkitTransform="translateY("+1500+"px)";
 document.getElementById('contact').style.webkitTransform="translateY("+1900+"px)";
 
+alert("hello");
 var appear=function(div){
 	div.style.transitionDuration="1s";
 	div.style.webkitTransform="";
