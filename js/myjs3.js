@@ -1,14 +1,15 @@
 var element=document.getElementById('intro');
 element.style.webkitTransform="translateY("+300+"px)";
-document.getElementById('intro2').style.webkitTransform="translateY("+300+"px)";
-document.getElementById('hobbies').style.webkitTransform="translateY("+400+"px)";
-document.getElementById('skills').style.webkitTransform="translateY("+700+"px)";
+document.getElementById('intro2').style.webkitTransform="translateY("+400+"px)";
+document.getElementById('hobbies').style.webkitTransform="translateY("+500+"px)";
+document.getElementById('skills').style.webkitTransform="translateY("+800+"px)";
 document.getElementById('creations').style.webkitTransform="translateY("+1500+"px)";
 document.getElementById('contact').style.webkitTransform="translateY("+1900+"px)";
 
 var appear=function(div){
 	div.style.transitionDuration="1s";
 	div.style.webkitTransform="";
+	div.className += " appear";
 }
 
 
